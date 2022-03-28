@@ -11,7 +11,9 @@ warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
 census_fn = 'DA/DA-Pop-2016.gpkg'
 
 # List of provinces for batch process
-# Options include: YK, NWT, NU, BC, AB, SK, MB, ON, QC, NB, NS, PEI, NFL
+# Options depend on the organization of your building footprints file, in my case: YK, NWT, NU, BC, AB, SK, MB, ON, QC, NB, NS, PEI, NFL
+# Prior to processing, each building footprint file was renamed using this naming convention: 'PR.geojson',
+# where PR is the acronym for the province/territory
 list_pr = ['YK', 'NWT']
 
 # LOAD CENSUS DATA
