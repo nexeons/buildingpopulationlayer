@@ -10,7 +10,7 @@ Population density products have long been used to quantify demographic informat
 While proprietary datasets presenting this type of information already exist, they can be expensive. The public availability of remote sensing and free open-source data has significantly increased in recent years, making it now easier than ever to develop good population estimates all the way down to the building level in the public domain.
 
 **Full project details**  
-Open Building Population Layer (Canada): http://www.maximfortin.com/projects/cobpl/
+Open Building Population Layer (Canada): http://www.maximfortin.com/projects/cobpl/  
 Open Building Population Layer (US): http://www.maximfortin.com/projects/bpl-us/
 
 **Use constraints and citation**  
