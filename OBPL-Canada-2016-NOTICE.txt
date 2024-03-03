@@ -6,7 +6,7 @@ This product includes software developed by Maxim Fortin:
 
 Maxim Fortin (2022): Code for processing building population estimates provided by Maxim Fortin under the Apache 2.0 License.
 
-For more information about Maxim Fortin and the original works included in this distribution, please visit: https://www.maximfortin.com/projects/obpl-ca-2016/
+For more information about Maxim Fortin and the original works included in this distribution, please visit: https://www.maximfortin.com/project/obpl-ca-2016/
 
 Apache, Apache License, and Apache logos are trademarks of The Apache Software Foundation. The Apache Software Foundation has no affiliation with and does not endorse the products mentioned in this distribution.
 

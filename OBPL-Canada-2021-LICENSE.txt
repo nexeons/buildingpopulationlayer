@@ -185,7 +185,7 @@
    Citation for code and documentation: 
    Fortin, Maxim (2024): Python code for the Open Building Population Layer 
    - Canada, derived from open-source computer-generated footprints and 2021 
-   census data, URL: https://www.maximfortin.com/projects/obpl-ca-2021/
+   census data, URL: https://www.maximfortin.com/project/obpl-ca-2021/
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

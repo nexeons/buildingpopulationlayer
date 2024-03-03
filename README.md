@@ -2,7 +2,9 @@
 The Open Building Population Layer is a personal project by Maxim Fortin. It is not an official government data source for building footprints or population.
 
 **Introduction**  
-This dataset contains population estimates at the building level for all provinces, territories and states in Canada and the US, calibrated using the most accurate census information available. This data, along with accompanying code, can be downloaded and used freely under the MIT License, provided the source is acknowledged.
+This dataset contains population estimates at the building level for all provinces, territories and states in Canada and the US, calibrated using the most accurate census information available.
+
+This data, along with accompanying code, can be downloaded and used freely under the licenses described below, provided the source is acknowledged.
 
 **Why this layer was developed**  
 Population density products have long been used to quantify demographic information and to assess relationships with hazards, ecosystems, human health and infrastructure. However, there is currently a gap for a fine-resolution population density product covering all provinces and territories in Canada.
@@ -10,21 +12,27 @@ Population density products have long been used to quantify demographic informat
 While proprietary datasets presenting this type of information already exist, they can be expensive. The public availability of remote sensing and free open-source data has significantly increased in recent years, making it now easier than ever to develop good population estimates all the way down to the building level in the public domain.
 
 **Full project details**  
-Open Building Population Layer (Canada): http://www.maximfortin.com/projects/cobpl/  
-Open Building Population Layer (US): http://www.maximfortin.com/projects/bpl-us/
+Full project details are provided at the links below, including methodology, examples and data assessments.
+- Open Building Population Layer - 2021 census (Canada): http://www.maximfortin.com/project/obpl-ca-2021/
+- Open Building Population Layer - 2016 census (Canada): http://www.maximfortin.com/project/obpl-ca-2016/
+- Open Building Population Layer - 2018 census (US): http://www.maximfortin.com/project/obplus-2018/
 
-**Use constraints and citation**  
-The Open Building Population Layer has been produced by Maxim Fortin as open and free data. Reuse is authorised under the MIT License, provided the source is acknowledged.
+**Dataset license**
+The dataset is released under the {{< staticref "https://opendatacommons.org/licenses/odbl/" "newtab" >}}Open Database License (ODbL){{< /staticref >}}. This license allows you to freely use, distribute, and modify the dataset provided you attribute the source and share any modifications under the same license.
 
-How to cite this dataset:  
-*FORTIN, Maxim (2022): Open Building Population Layer (Canada), derived from open-source computer-generated footprints and census data (beta version), URL: http://www.maximfortin.com/projects/cobpl/*
-*FORTIN, Maxim (2022): Open Building Population Layer (US), derived from open-source computer-generated footprints and census data (beta version), URL: http://www.maximfortin.com/projects/bpl-us/*
+When using the dataset, please attribute as follows:  
+*Fortin, Maxim (2024): Open Building Population Layer - Canada, derived from open-source computer-generated footprints and 2021 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-ca-2021/" "newtab" >}}https://www.maximfortin.com/project/obpl-ca-2021/{{< /staticref >}}*
+*Fortin, Maxim (2024): Open Building Population Layer - Canada, derived from open-source computer-generated footprints and 2016 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-ca-2016/" "newtab" >}}https://www.maximfortin.com/project/obpl-ca-2016/{{< /staticref >}}*
+*Fortin, Maxim (2024): Open Building Population Layer - United States, derived from open-source computer-generated footprints and 2018 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-us-2018/" "newtab" >}}https://www.maximfortin.com/project/obpl-us-2018/{{< /staticref >}}*
 
-**MIT License**
-Copyright 2022 Maxim Fortin
+No warranty is given as to the accuracy or completeness of the information provided. While the dataset provides estimates of population for each building in Canada, please note that these are derived approximations and do not represent exact population counts. Use caution when interpreting and utilizing the data for decision-making purposes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### **Code license**  
+The code is released under the {{< staticref "http://www.apache.org/licenses/LICENSE-2.0" "newtab" >}}Apache 2.0 License{{< /staticref >}}. This license allows you to freely use, distribute, and modify the code for both commercial and non-commercial purposes, with limited liability and warranty.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+When using the code, please attribute as follows:
+*Fortin, Maxim (2024): Python code for the Open Building Population Layer - Canada, derived from open-source computer-generated footprints and 2021 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-ca-2021/" "newtab" >}}https://www.maximfortin.com/project/obpl-ca-2021/{{< /staticref >}}*
+*Fortin, Maxim (2024): Python code for the Open Building Population Layer - Canada, derived from open-source computer-generated footprints and 2021 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-ca-2016/" "newtab" >}}https://www.maximfortin.com/project/obpl-ca-2016/{{< /staticref >}}*
+*Fortin, Maxim (2024): Python code for the Open Building Population Layer - United States, derived from open-source computer-generated footprints and 2021 census data, URL: {{< staticref "https://www.maximfortin.com/project/obpl-us-2018/" "newtab" >}}https://www.maximfortin.com/project/obpl-us-2018/{{< /staticref >}}*
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+No warranty is given as to the accuracy or completeness of the information provided. We provide no warranties and assume no responsibility for any liabilities associated with the use of this code.
